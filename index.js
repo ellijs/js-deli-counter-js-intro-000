@@ -7,8 +7,8 @@ function takeANumber(array, person) {
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.slice(1) === null) {
-    return "There is nobody waiting to be served!"
+    return "There is nobody waiting to be served!";
   } else {
-    return katzDeliLine.slice(1)
+    return katzDeliLine.slice(1);
   }
 }
