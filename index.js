@@ -1,5 +1,7 @@
+
 function takeANumber(array, person) {
-  let order = array.length + 1 ;
-  array.push(`Welcome, ${person}. You are number ${order} in line.`);
-  return array;
+  for ( let i = 1; i < array.length + 1; i++) {
+    array.push(`Welcome, ${person}. You are number ${i} in line.`);
+    }
+    return array;
   }
