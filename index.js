@@ -1,8 +1,8 @@
-function takeANumber(people, name) {
+function takeANumber(line, person) {
   let newArray = [];
   let i = 0;
-  for (i = 0; i > people.length; i++) {
-    newArray.push(`Welcome, ${name[i]}. You are number ${i + 1} in line.`);
+  for (i = 0; i > line.length; i++) {
+    newArray.push(`Welcome, ${person[i]}. You are number (${line[i]}+ 1) in line.`);
   }
   return newArray;
 }
