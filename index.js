@@ -6,9 +6,10 @@ function takeANumber(array, person) {
   }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine.shift() === null) {
-    return "There is nobody waiting to be served!";
+  let serving = katzDeliLine.shift();
+  if (serving === null) {
+    return "There is nobody waiting to be served!"
   } else {
-    return katzDeliLine.shift();
+    return `Currently serving ${serving}.`
   }
 }
