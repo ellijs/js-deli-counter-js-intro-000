@@ -1,7 +1,7 @@
-function takeANumber(line, person) {
+function takeANumber(array, name) {
   let i = 0;
-  for (i = 0; i > line.length; i++) {
-    line.push(`Welcome, ${person}. You are number (${line[i]}+ 1) in line.`);
+  for (i = 0; i > array.length; i++) {
+    array.push(`Welcome, ${name}. You are number (${i}+ 1) in line.`);
   }
   return line;
 }
